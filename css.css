@@ -1,0 +1,64 @@
+body {
+    background-color: #011F3F;
+    margin: 0px;
+  }
+
+.container {
+  display: grid;
+  grid-template-columns: repeat(10, 50px);
+  grid-template-rows: repeat(10, 50px);
+  gap: 10px; /* Add gap between grid items for better visibility */
+  margin: 0px;
+}
+
+.grid-item {
+  border-radius: 10px;
+  height: 50px;
+  width: 50px;
+  background-color: dimgrey;
+  color: white;
+  margin-right: 10px;
+}
+.hidden {
+  visibility: hidden;
+}
+
+.containers-container {
+  display: flex;
+  justify-content: center;
+  visibility: visible;
+  position: absolute;
+}
+
+.Text {
+  margin: 0px;
+  text-align: center;
+  color: #7BCD00;
+}
+
+p {
+  font-size: 20px;
+  text-align: center;
+  color: greenyellow;
+}
+
+.shown {
+  visibility: visible;
+}
+
+span {
+  color: red;
+  border: darkred;
+}
+
+.btn-container {
+  display: flex !important;
+  align-content: center;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+}
+
+.selected {
+  background-color: #074673 !important;
+}
